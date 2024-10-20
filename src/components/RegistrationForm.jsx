@@ -28,7 +28,7 @@ const RegistrationForm = () => {
             });
           })
           .catch(() => {
-            toast.error("Registration failed. Please try again.", {
+            toast.error("Registration failed. Please try again or try login.", {
               duration: 2500,
               position: "top-center",
             });
